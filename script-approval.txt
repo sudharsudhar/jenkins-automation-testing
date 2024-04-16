@@ -1,0 +1,10 @@
+method com.michelin.cio.hudson.plugins.rolestrategy.Role getPermissions
+method com.michelin.cio.hudson.plugins.rolestrategy.RoleBasedAuthorizationStrategy getRoleMap com.synopsys.arc.jenkins.plugins.rolestrategy.RoleType
+method com.michelin.cio.hudson.plugins.rolestrategy.RoleMap assignRole com.michelin.cio.hudson.plugins.rolestrategy.Role com.michelin.cio.hudson.plugins.rolestrategy.PermissionEntry
+method com.michelin.cio.hudson.plugins.rolestrategy.RoleMap getRole java.lang.String
+method hudson.model.Saveable save
+method jenkins.model.Jenkins getAuthorizationStrategy
+new com.michelin.cio.hudson.plugins.rolestrategy.PermissionEntry com.michelin.cio.hudson.plugins.rolestrategy.AuthorizationType java.lang.String
+staticField com.michelin.cio.hudson.plugins.rolestrategy.AuthorizationType USER
+staticField com.synopsys.arc.jenkins.plugins.rolestrategy.RoleType Project
+staticMethod jenkins.model.Jenkins get
